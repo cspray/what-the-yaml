@@ -1,0 +1,26 @@
+{
+    "name": "cspray/what-the-yaml",
+    "description": "A YAML generator written using asgrim/side-effect",
+    "license": "MIT",
+    "require": {
+        "asgrim/side-effect": "1.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cspray\\WhatTheYaml\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cspray\\WhatTheYaml\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": false
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
